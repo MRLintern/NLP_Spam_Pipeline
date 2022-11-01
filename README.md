@@ -16,7 +16,11 @@ The dataset is included however it can also be downloaded [here](https://archive
 
 This section covers the principles of getting Spark set up on your machine. If you don't want to install `Anaconda`, you can still install `Jupyter Notebook`.
 
-* `sudo apt-get install python3-pip`
-* `sudo apt-get install jupyter`
+* `$ sudo apt-get install python3-pip`
+* `$ sudo apt-get install jupyter`
+
+Installing `Spark`
+
+
 
 
