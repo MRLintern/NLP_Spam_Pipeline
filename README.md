@@ -24,7 +24,7 @@ The repository will come with everything thats needed.
 Click the run button at the top. However, its best to run each cell one at a time to see the data transformation.
 If you're only interested in the end result, run the python script which will display the accuracy of the model.
 
-* `$ python3 spark_nlp_pipe.py`
+* `$ python3 nlp_spam_detection.py`
 
 
 ## TODO
