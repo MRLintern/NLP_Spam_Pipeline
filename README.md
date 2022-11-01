@@ -10,17 +10,24 @@ The dataset is included however it can also be downloaded [here](https://archive
 * `Ubuntu 20.04`.
 * `Apache Spark`. Dowload it from [here](https://spark.apache.org/downloads.html). Download the tar file and unzip at the command line.
 * `pip3` for package management.
+* `py4j`
+* `Java SDK`
+* `Scala`
 * `findspark`. This will make `PySpark` importable as a regular library. See [here](https://pypi.org/project/findspark/).
 
-### Installation
+### Getting the Application
 
-This section covers the principles of getting Spark set up on your machine. If you don't want to install `Anaconda`, you can still install `Jupyter Notebook`.
+The repository will come with everything thats needed.
 
-* `$ sudo apt-get install python3-pip`
-* `$ sudo apt-get install jupyter`
+* `$ git clone https://github.com/MRLintern/NLP_Spam_Pipeline.git`
 
-Installing `Spark`
+Click the run button at the top. However, its best to run each cell one at a time to see the data transformation.
+If you're only interested in the end result, run the python script which will display the accuracy of the model.
+
+* `$ python3 spark_nlp_pipe.py
 
 
+## TODO
 
+Write all results to CSV files
 
