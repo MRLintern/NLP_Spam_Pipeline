@@ -9,6 +9,7 @@ The dataset is included however it can also be downloaded [here](https://archive
 * `Anaconda`. This will come with the latest version of Python, along with `Jupyter Notebook`, `Spider IDE` and a range of other useful Data Science tools.
 * `Ubuntu 20.04`.
 * `Apache Spark`. Dowload it from [here](https://spark.apache.org/downloads.html). Download the tar file and unzip at the command line.
+* `pyspark`
 * `pip3` for package management.
 * `py4j`
 * `Java SDK`
