@@ -22,10 +22,11 @@ The repository will come with everything thats needed.
 * `$ git clone https://github.com/MRLintern/NLP_Spam_Pipeline.git`
 
 Click the run button at the top. However, its best to run each cell one at a time to see the data transformation.
-If you're only interested in the end result, run the python script which will display the accuracy of the model.
+If you're only interested in the end result, run the python script which will display the accuracy of the model. I used `gedit` for the editor and ran the script at the command line. Note: I had problems doing this in VSCode.
 
 * `$ python3 nlp_spam_detection.py`
 
+The model accuracy came in at around 93% running both the script and jupyter notebook.
 
 ## TODO
 
