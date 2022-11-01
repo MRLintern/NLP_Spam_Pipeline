@@ -24,10 +24,11 @@ The repository will come with everything thats needed.
 Click the run button at the top. However, its best to run each cell one at a time to see the data transformation.
 If you're only interested in the end result, run the python script which will display the accuracy of the model.
 
-* `$ python3 spark_nlp_pipe.py
+* `$ python3 spark_nlp_pipe.py`
 
 
 ## TODO
 
-Write all results to CSV files
+Further detail on installation of Apache Spark.
+Write all results to CSV files.
 
