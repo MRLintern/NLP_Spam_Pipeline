@@ -29,6 +29,6 @@ If you're only interested in the end result, run the python script which will di
 
 ## TODO
 
-Further detail on installation of Apache Spark.
-Write all results to CSV files.
+* Further detail on installation of Apache Spark.
+* Write all results to CSV files.
 
