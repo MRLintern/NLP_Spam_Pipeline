@@ -29,8 +29,5 @@ If you're only interested in the end result, run the python script which will di
 
 The model accuracy came in at around 93% running both the script and jupyter notebook.
 
-## TODO
 
-* Further detail on installation of Apache Spark.
-* Write all results to CSV files.
 
