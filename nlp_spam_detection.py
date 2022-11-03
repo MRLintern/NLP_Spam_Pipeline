@@ -24,10 +24,18 @@ data = spark.read.csv("SMSSpamCollection",inferSchema=True,sep='\t')
 #data column titles in file is meaningless; give names: class and text respectively
 data = data.withColumnRenamed('_c0','class').withColumnRenamed('_c1','text')
 
+print()
 #Clean and Prepare the Data
-
+#show these results
+print("Here are the ham and spam messages along with their sizes:")
 #make use of the length function found in Spark to get size of ham/spam messages
 data = data.withColumn('length',length(data['text']))
+#display data
+print(data.show())
+
+#average length of ham vs spam messages
+print("Here's the Average Length of a ham and spam message:")
+print(data.groupby('class').mean().show())
 
 #ML/NLP section inc feature engineering
 
@@ -63,13 +71,17 @@ clean_data = clean_data.select(['label','features'])
 
 spam_predictor = nb.fit(training)
 
-#create some test results
+print()
+#create some test results and show them
+print("Here's a portion the test results:")
 test_results = spam_predictor.transform(testing)
+
+#show some test results
+print(test_results.show())
 
 #compare label vs. prediction; looking at accuracy (acc)
 acc_eval = MulticlassClassificationEvaluator()
 acc = acc_eval.evaluate(test_results)
 
 print(f"Accuracy of Model at Predicting Spam Messages was {acc}")
-
-
+print()
