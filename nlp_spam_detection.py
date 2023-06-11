@@ -73,7 +73,7 @@ spam_predictor = nb.fit(training)
 
 print()
 #create some test results and show them
-print("Here's a portion the test results:")
+print("Here's a portion of the test results:")
 test_results = spam_predictor.transform(testing)
 
 #show some test results
