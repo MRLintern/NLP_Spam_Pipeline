@@ -10,7 +10,6 @@ from pyspark.ml.classification import NaiveBayes
 from pyspark.ml import Pipeline
 from pyspark.ml.evaluation import MulticlassClassificationEvaluator
 
-#main program
 
 #place your path to Spark: findspark.init('PATH-TO-SPARK-FOLDER')
 findspark.init('/home/user/spark-3.3.0-bin-hadoop3')
