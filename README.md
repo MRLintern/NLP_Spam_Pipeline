@@ -27,8 +27,6 @@ If you're only interested in the end result, run the python script which will di
 
 * `$ python3 nlp_spam_detection.py`
 
-The model accuracy came in at around 93% running both the script and jupyter notebook.
-
 ## Results
 
 The accuracy of the model came in around 92%.
